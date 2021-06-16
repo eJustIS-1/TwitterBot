@@ -6,7 +6,7 @@ import time
 from config import create_api
 import json
 
-# Sets the logger for reddit post bot
+# Sets the logger for reddit posting bot
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 

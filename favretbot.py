@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 
-# Variables
+# Sets Variables
 api = create_api()
 userName = "earthquakeBot"
 userId = api.get_user(userName).id

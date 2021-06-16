@@ -6,6 +6,7 @@ import time
 from config import create_api
 import json
 
+# Sets the logger for reddit post bot
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
@@ -22,7 +23,7 @@ reddit = praw.Reddit(
 redditFile.close()
 
 
-# Takes the top posts from a subbreddit and tweets that post
+# Takes the hot posts from a subreddit called worldnews and tweets that post
 def reddit_post(api):
     posts = reddit.subreddit("worldnews").hot(limit=3)
     for post in posts:
@@ -43,7 +44,6 @@ def main():
     api = create_api()
     while True:
         reddit_post(api)
-        # TODO:Schedule yapilmasi gerek
         time.sleep(216000)
 
 

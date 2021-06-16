@@ -26,7 +26,7 @@ class FavRetListener(tweepy.StreamListener):
     def on_status(self, tweet):
         logger.info(f"Processing tweet id {tweet.id}")
         if tweet.in_reply_to_status_id is not None or \
-                tweet.user.id == self.me.id or tweet.user.id is not userId:
+                tweet.user.id == self.me.id:
             logger.info(f"Could not Process tweet id {tweet.id}")
             return
 
@@ -49,7 +49,7 @@ class FavRetListener(tweepy.StreamListener):
 def main():
     tweet_listener = FavRetListener(api)
     stream = tweepy.Stream(api.auth, tweet_listener)
-    stream.filter(track=["magnitude"])
+    stream.filter(follow=['122264472'])
 
 
 if __name__ == '__main__':

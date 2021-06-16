@@ -1,4 +1,4 @@
-# TwitterBots
+# Twitter Bots
 
 This project includes several different bots which are integrated with Tweeter API. New bots are also on the way soon... 
 

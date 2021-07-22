@@ -1,6 +1,6 @@
 # Twitter Bots
 
-This project includes several different bots which are integrated with Tweeter API. New bots are also on the way soon... 
+This project includes several different bots which are integrated with Twitter API. New bots are also on the way soon... 
 
 Requirements to use these bot are listed in the requirements.txt document. 
 

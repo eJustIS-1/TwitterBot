@@ -10,7 +10,7 @@ Our current bots are as follows:
 
 1. Reddit Posting Bot
 2. TwitterFollow (Follow the followers) Bot
-3. Fav and Retweet Bot
+3. Fav and Retweet (FavAndRet) Bot
 
 ## Reddit Posting Bot
 
@@ -20,13 +20,13 @@ Our current bots are as follows:
 
 * The implementation can be changed to any other Subreddit.
 
-## Follow Followers Bot
+## TwitterFollow (Follow the followers) Bot
 
 * This bot is also implemented as others with Tweeter API.
 
 * Follows the users who follows the account you have entered. 
 
-## Fav and Retweet
+## Fav and Retweet (FavAndRet) Bot
 
 * The last but not least, the fav and retweet bot is designed to track a selected user's timeline in order to
   fav and retweet selected tweets or all tweets that tracked user sent.

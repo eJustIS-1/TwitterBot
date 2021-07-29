@@ -9,7 +9,7 @@ NOTE: Libraries can be installed with $pip install [library name]
 Our current bots are as follows:
 
 1. Reddit Posting Bot
-2. Follow Followers Bot
+2. TwitterFollow (Follow the followers) Bot
 3. Fav and Retweet Bot
 
 ## Reddit Posting Bot
